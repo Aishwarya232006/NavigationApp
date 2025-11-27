@@ -14,3 +14,10 @@ export const globalStyles = StyleSheet.create({
     marginBottom: 30,  // ← BIGGER space under title
   },
 
+  buttonContainer: {
+    marginTop: 15,     // ← SPACE ABOVE button
+    marginBottom: 15,  // ← SPACE BELOW button
+    width: '80%',      // ← gives room so buttons don’t stretch
+    alignSelf: 'center',
+  },
+});
